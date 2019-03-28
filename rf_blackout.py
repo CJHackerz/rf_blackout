@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Rf Blackout
-# Generated: Fri Mar 29 02:56:55 2019
+# Generated: Fri Mar 29 03:05:52 2019
 ##################################################
 
 
@@ -42,7 +42,7 @@ class rf_blackout(grc_wxgui.top_block_gui):
         ##################################################
         self.target_freq = target_freq = 91.1E6
         self.samp_rate = samp_rate = 5e6
-        self.rf_gain = rf_gain = 10
+        self.rf_gain = rf_gain = 30
         self.bandwidth_size = bandwidth_size = 10e6
         self.sample_rate = sample_rate = samp_rate
         self.gain = gain = rf_gain
